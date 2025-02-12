@@ -16,7 +16,7 @@
         android:theme="@style/Theme.ClassApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="edu.nku.lakers.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.ClassApp">
             <intent-filter>

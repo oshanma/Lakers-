@@ -7,3 +7,4 @@ data class LakersCharacters(
     val position: String,
     val pictureUrl: String
 )
+

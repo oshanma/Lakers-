@@ -33,7 +33,8 @@
             android:layout_marginHorizontal="8dp"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintTop_toTopOf="@id/character_image"
-            tools:text="@string/name" />
+            tools:text="@string/name"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/character_age"
@@ -42,7 +43,8 @@
             android:layout_margin="8dp"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintTop_toBottomOf="@id/character_name"
-            tools:text="@string/age" />
+            tools:text="@string/age"
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/character_position"
@@ -51,7 +53,8 @@
             android:layout_margin="8dp"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintTop_toBottomOf="@id/character_age"
-            tools:text="@string/position" />
+            tools:text="@string/position"
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/character_jersey_number"
@@ -60,7 +63,8 @@
             android:layout_margin="8dp"
             app:layout_constraintStart_toEndOf="@id/character_image"
             app:layout_constraintTop_toBottomOf="@id/character_position"
-            tools:text="@string/jersey_number" />
+            tools:text="@string/jersey_number"
+            android:textStyle="italic" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
