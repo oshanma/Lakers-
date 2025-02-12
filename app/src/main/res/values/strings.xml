@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Los Angeles Lakers</string>
+    <string name="a_picture_of_a_lakers">A picture of a character in Lakers</string>
+    <string name="name">Name: %s</string>
+    <string name="age">Years in NBA: %d</string>
+    <string name="position">Position: %s</string>
+    <string name="jersey_number">Jersey Number: %d</string>
+</resources>
